@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'signika negative';
+}
+.container{
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 300px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+input{
+    width: 300px;
+    height: 170px;
+    color: #ccc;
+    background-color: hsl(0, 0%, 10%);
+    border: none;
+    font-size: 5.5rem;
+    overflow: hidden;
+    display: flex;
+    text-align: end;
+    padding: 0px 20px;
+}
+.keys{
+    position: relative;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+button{
+    font-size: 2rem;
+    position: relative;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    border: none;
+    left: 4px;
+    font-family: 'poppins';
+}
+.gray{
+    color: black;
+    background-color: hsl(0, 0%, 41%);
+}
+.operation{
+    background-color: hsl(39, 100%, 50%);
+    color: white;
+}
+.numbers{
+    background-color: hsl(0, 0%, 18%);
+    color: white;
+}
+.gray:hover{
+    background-color: hsl(0, 0%, 51%);
+}
+.operation:hover{
+    background-color: hsl(39, 100%, 60%);
+}
+.numbers:hover{
+    background-color: hsl(0, 0%, 28%);
+}
+.gray:active{
+    color: black;
+    background-color: hsl(0, 0%, 71%);
+}
+.operation:active{
+    background-color: hsl(39, 100%, 80%);
+}
+.numbers:active{
+    background-color: hsl(0, 0%, 38%);
+}
